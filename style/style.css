@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5, h6
   color: #D92323;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
-
 h2
 { font: normal 175% 'century gothic', arial, sans-serif;}
 h3{
@@ -69,7 +68,8 @@ blockquote
   background: #FFF;}
 
 ul
-{ margin: 2px 0 22px 17px;}
+{ margin: 2px 0 22px 17px;
+    font-size: 1.2em;}
 
 ul li
 { list-style-type: circle;
@@ -300,4 +300,18 @@ table tr td
 }
 .logo:hover{
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */    
+}
+.imgblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgzoom{
+    transition: 0.5s;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 25%;
+}
+.imgzoom:hover{
+    transform: scale(2);
 }
