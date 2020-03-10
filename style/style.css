@@ -142,7 +142,7 @@ ul#menu li a
   float: left; 
   height: 17px;
   margin: 10px 0 0 10px;
-  padding: 9px 27px 6px 27px;
+  padding: 9px 22px 6px 22px;
   text-align: center;
   color: #FFF;
   text-transform: uppercase;
@@ -314,4 +314,12 @@ table tr td
 }
 .imgzoom:hover{
     transform: scale(2);
+}
+.tableblock > table{
+    display: flex;
+    margin-left: 50px;
+}
+.rsp{
+    margin-right: 25px;
+    text-align: right;
 }
