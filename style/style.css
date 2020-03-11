@@ -487,3 +487,10 @@ input#img-8:checked ~ .nav-dots label#img-dot-8,
 input#img-9:checked ~ .nav-dots label#img-dot-9 {
     background: rgba(0, 0, 0, 0.8);
 }
+
+.fb_plugins{
+    margin-top: 30px;
+}
+.fb-group{
+    margin-bottom: 30px;
+}
